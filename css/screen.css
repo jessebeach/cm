@@ -1,0 +1,18 @@
+/* @group structure */
+
+#page {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* @end */
+
+/* @group Forms */
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+/* @end */

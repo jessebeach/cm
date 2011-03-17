@@ -1,0 +1,73 @@
+/* @group Typography */
+
+body,
+textarea {
+  font-family: "Lucida Grande", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: small;
+}
+
+/* @end */
+
+/* @group Forms */
+
+label {
+  font-size: x-small;
+}
+
+input,
+textarea {
+  font-size: small;
+}
+
+input,
+textarea {
+  border: thin solid #c6c6c2;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 18px;
+  padding-top: 4px;
+  text-indent: 5px;
+  width: 100%;
+}
+
+input {
+  padding-bottom: 4px;
+}
+
+label {
+  margin-bottom: 3px;
+}
+
+button {
+  font-size: small;
+}
+
+.button,
+.button:hover {
+  color: #999;
+  text-decoration: none; 
+}
+
+form .primary,
+form .primary:hover {
+  background-color: #99b555;
+  border: 1px solid #788f42;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #505f28;
+  padding: 4px 9px;
+  text-shadow: 0 1px 0 #c5eb62;
+}
+
+form .primary:hover {
+  cursor: pointer;
+}
+
+form .secondary {
+  font-size: x-small;
+  margin-left: 18px;
+}
+
+/* @end */
